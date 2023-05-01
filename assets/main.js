@@ -1,7 +1,5 @@
-
-
 document.getElementById('jokeBtn').addEventListener('click', joke);
-
+joke()
 async function joke() {
   let config = {
     headers: {
